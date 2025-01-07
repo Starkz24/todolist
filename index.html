@@ -1,43 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/d5f22ee4f8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://lh3.googleusercontent.com/pw/AJFCJaWk2ppiixRneO28N-j_c1aLow6p-VW9-4eUZAFWompL_NBkjhkkxCtSYytT-31D1t4E9907mMfCnmIuvLDtzvSp8NIhNI3Imse2ZjrkFNOkEx93QTatf1jujgjUSUqLA0v6RVMZUEX4LWS2UnrXI0CE=w32-h32-s-no?authuser=0" type="image/x-icon">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="main-container">
-    <div class="ta-container">
-      <div class="heading">
-        <h1>Todo App</h1>
-      </div>
-      <div class="ta-wrapper">
-        <div class="input-wrapper">
-          <input type="text" id="todo-input">
-          <button id="submit">Add</button>
+    <div class="tdl-holder">
+        <h2>✺ TO-DO LIST ✺</h2>
+        <div class="tdl-content">
+            <ul>
+                <!-- Task items will be dynamically added here -->
+            </ul>
         </div>
-        <div class="todo-lists">
-          <!-- <div class="todo-item">
-            <div>
-              <input type="text" class="text" readonly="readonly">
-            </div>
-            <div class="action-items">
-              <i class="fa-solid fa-check"></i>
-              <i class="fa-solid fa-pen-to-square edit"></i>
-              <i class="fa-solid fa-trash"></i>
-            </div>
-          </div> -->
-        </div>
-      </div>
+        <input type="text" class="tdl-new" placeholder="Write new item and hit 'Enter'...">
     </div>
-  </div>
+
+    <script src="script.js"></script>
 </body>
-
-<script src="script.js"></script>
-
 </html>
